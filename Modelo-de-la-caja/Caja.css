@@ -1,0 +1,16 @@
+.exterior{
+	background-color:DarkSalmon;
+	width:auto;
+	padding:60px 40px 160px 200px;
+	border-color:DarkMagenta;
+	border-width:25px 15px;
+	margin:auto;
+	border-style:solid;
+}
+.interior{
+	padding:10px 20px 10px 20px;
+	width:auto;
+	border:2px dashed DarkGreen;
+	background-color:white;
+	margin:auto;
+}
