@@ -207,8 +207,15 @@ nav li{
 }
 .blog img{
 	margin-top:20px;
+	margin-left:15px;
 	width:80%;
 	position:relative;
+}
+.blog .imgUno p, .blog .imgUno h3, .blog .imgUno h5{
+	margin-left:15px;
+}
+.blog .imgDos{
+	margin-left:0;
 }
 .blog .slide{
 	position:absolute;
@@ -217,7 +224,7 @@ nav li{
 	height:35px;
 }
 .blog .uno{
-	left:10;
+	left:15;
 }
 .blog .dos{
 	right:50;
