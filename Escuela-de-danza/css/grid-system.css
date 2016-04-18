@@ -29,8 +29,6 @@
 
 .row {
 	width: 100%;
-	margin-left: -14px;
-	margin-right: -14px;
 }
 
 .row:before, .row:after{
@@ -106,4 +104,41 @@
 .col-12 {
 	/* (12 / 12) x 100 */
 	width: 100%;
+}
+.row .offset-s1 {
+  margin-left: 8.3333333333%;
+}
+.row .offset-s2 {
+  margin-left: 16.6666666667%;
+}
+.row .offset-s3 {
+  margin-left: 25%;
+}
+.row .offset-s4 {
+  margin-left: 33.3333333333%;
+}
+.row .offset-s5 {
+  margin-left: 41.6666666667%;
+}
+.row .offset-s6 {
+  margin-left: 50%;
+}
+.row .offset-s7 {
+  margin-left: 58.3333333333%;
+}
+.row .offset-s8 {
+  margin-left: 66.6666666667%;
+}
+.row .offset-s9 {
+  margin-left: 75%;
+}
+
+.row .offset-s10 {
+  margin-left: 83.3333333333%;
+}
+.row .offset-s11 {
+  margin-left: 91.6666666667%;
+}
+.row .offset-s12 {
+  margin-left: 100%;
 }

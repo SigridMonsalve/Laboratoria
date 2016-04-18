@@ -1,8 +1,7 @@
 .bg{
 	background:url(../img/dance_1.jpg);
 	background-size:cover;
-	top:-100px;
-	height:410px;
+	background-repeat: no-repeat;
 	color:#c2c6c9;
 }
 .bg p:first-child{
@@ -26,6 +25,7 @@
 	width:130px;
 	height:40px;
 	padding-top:10px;
+	margin-bottom:150px;
 }
 .bg .button a{
 	font-size:14px;
@@ -47,8 +47,8 @@
 	top:-20px;
 	position:relative;
 	margin:0 auto;
-	border-radius:5%;
-	background-color:#120557;
+	border-radius:5px;
+	background-color:#192951;
 	width:45%;
 	height:70px;
 	padding-top:14px;
@@ -61,26 +61,22 @@
 .bgInstruc{
 	border-top:2px solid black;
 	border-bottom:2px solid black;
-	height:350px;
-	overflow:hidden;
-	width:100%;
-	padding:0;
 }
 .bgInstruc{
 	background-image:url(../img/instructor_4.jpg),url(../img/profesor_9.jpg);
 	background-size:50%;
-	background-repeat: repeat-y;
+	background-repeat:repeat-y;
 	background-position: top left, top right;
+	text-align:center;
 }
 .bgInstruc p{
 	color:white;
-	position:relative;
 	width:35%;
-	left:32.5%;
-	top:270px;
 	height:80px;
-	background-color:#241960;
+	background-color:#192951;
 	text-align:center;
+	margin:0 auto;
+	margin-top:250px;
 	padding-top:30px;
 	font-size:20px;
 }
@@ -99,7 +95,7 @@
 	padding-top:80px;
 	padding-left:100px;
 	padding-right:100px;
-	background-color:#241960;
+	background-color:#192951;
 	height:410px;
 }
 .bgMapa iframe{
@@ -114,19 +110,3 @@
 .bgMapa h3{
 	margin-top:30px;
 }
-.bgContact{
-	background:url(../img/shoes_1.jpg);
-	background-size: 60%;
-	background-position:right;
-	background-repeat: no-repeat;
-	height:530px;
-}
-.bgFooter{
-	font-size:14px;
-	color:white;
-	background-color:#241960;
-	height:50px;
-	padding-top:25px;
-	padding-left:15px;
-}
-
