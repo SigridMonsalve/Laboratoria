@@ -1,0 +1,76 @@
+body{
+	background-color:#2FECE1;
+}
+.techo{
+	text-align:center;
+	position:relative;
+	width:0;
+	height:0;
+	border-bottom:100px solid #A61818;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	top:100px;
+}
+	
+.base{
+	width:180px;
+	height:180px;
+	background-color:#95AC96;
+	bottom:16px;
+	position:relative;
+	left:10px;
+}
+
+.puerta{
+	position:relative;
+	width:60px;
+	height:120px;
+	top:60px;
+	right:40px;
+	left:60px;
+	background-color:#C39A0D;
+}
+.sobre-base{
+	width:200px;
+	height:200px;
+}
+.chimenea{
+	width:40px;
+	height:70px;
+	background-color:#942F2F;
+	left:120px;
+	position:relative;
+	z-index:-1;
+}
+.manilla{
+	position:relative;
+	border-radius:100%;
+	background-color:#9C5B07;
+	height:15px;
+	width:15px;
+	left:40px;
+	top:60px;
+}
+.humo1{
+	width:20px;
+	height:15px;
+	border-radius:50%;
+	background-color:#ffffff;
+	position:relative;
+	bottom:50%;
+	left:70%;
+	
+	
+
+}
+.humo2{
+	width:60px;
+	height:40px;
+	border-radius:50%;
+	background-color:#ffffff;
+	position:relative;
+	bottom:90%;
+	left:70%;
+	
+
+}

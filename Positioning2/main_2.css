@@ -1,0 +1,29 @@
+.exterior{
+	width:400px;
+	height:400px;
+	background-color: #2C27EB;
+	position:relative;
+	left:200px;
+	padding:100px;
+	box-sizing:border-box;
+
+}
+
+
+.centro{
+	width:200px;
+	height:200px;
+	background-color: #3BA915;
+	position:static;
+}
+	
+.interior{
+	width:100px;
+	height:100px;
+	background-color: #000000;
+	position:absolute;
+	left:0;
+	top:0;
+
+}
+	

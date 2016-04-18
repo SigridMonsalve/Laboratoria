@@ -1,0 +1,28 @@
+.container{
+	width:908px;
+	background-color:#35CFA2;
+	margin:0 auto;
+}
+.caja{
+	
+	width:300px;
+	height:300px;
+	background-color:#B91663;
+	display:inline-block;
+	
+}
+.caja div{
+	border:10px GoldenRod solid;
+	padding:20px;
+	height:240px;
+}
+
+/*.container div{
+	width:300px;
+	height:300px;
+	background-color:#C92020;
+	display:inline-block;
+	border:10px GoldenRod solid;
+	padding:20px;
+	box-sizing:border-box; 
+}/*

@@ -1,0 +1,91 @@
+body{
+	background-color:#2FECE1;
+}
+.techo{
+	text-align:center;
+	position:relative;
+	width:0;
+	height:0;
+	border-bottom:100px solid #A61818;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+	top:100px;
+}
+	
+.base{
+	width:350px;
+	height:300px;
+	background-color:#95AC96;
+	bottom:16px;
+	position:relative;
+	left:10px;
+	border-bottom:60px solid #2FECE1;
+	box-sizing:border-box;
+
+}
+
+/*.puerta{
+	position:relative;
+	width:60px;
+	height:120px;
+	top:60px;
+	right:40px;
+	left:60px;
+	background-color:#C39A0D;
+}*/
+.sobre-base{
+	width:200px;
+	height:200px;
+}
+.chimenea{
+	width:40px;
+	height:70px;
+	background-color:#942F2F;
+	left:120px;
+	position:relative;
+	z-index:-1;
+}
+.manilla{
+	position:relative;
+	border-radius:20%;
+	background-color:#9C5B07;
+	height:10px;
+	width:25px;
+	left:30%;
+	display:inline-block;
+	bottom:-150px;
+}
+.manilla2{
+	position:relative;
+	border-radius:20%;
+	background-color:#9C5B07;
+	height:10px;
+	width:25px;
+	left:50%;
+	display:inline-block;
+	bottom:-150px;
+}
+.rueda1{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	background-color:#000000;
+	position:absolute;
+	display:inline-block;
+	bottom:-20%;
+	left:60%;
+	
+	
+	
+
+}
+.rueda2{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	bottom:-20%;
+	background-color:#000000;
+	position:absolute;
+	display:inline-block;
+	left:15%;
+	}

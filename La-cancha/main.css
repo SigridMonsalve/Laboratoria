@@ -1,0 +1,54 @@
+body *{
+	background-color: #81A97A;
+	border:1px solid white;
+	position:absolute;
+}
+.fondo{
+	height:400px;
+	width:650px;
+	padding:15px;
+}
+
+.cancha{
+	width:95%;
+	height:91.5%;
+}
+
+img{
+	border:none;
+	background-color:transparent;
+}
+.centro{
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	left:38%;
+	top:30%;
+}
+
+.arco1,.arco2{
+	width:100;
+	height:150;
+	top:30%;
+	
+}
+.arco1{
+ 	right:-1px;
+}
+
+.arco2{
+	left:-1px;
+}
+.arco2 img{
+	right:-12px;
+	top:2px;
+}
+
+.centro img{
+	right:40px;
+	top:-50px;
+}
+.arco1 img{
+	bottom:5px;
+	left:-30px;
+}

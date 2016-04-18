@@ -1,0 +1,31 @@
+.subtitulo{
+	width:85px;
+	height:3px;
+	background-color:black;
+}
+
+.container{
+	width:800px;
+	position:absolute;
+}
+
+img{
+	position:static;
+	width:211px;
+	height: 211px;
+	margin:20px;
+	filter:brightness(70%)
+}
+
+.nombres{
+	bottom:-210px;
+	position:absolute;
+}
+
+p{  
+	font-size:14px;
+	margin:0 30 240 125;
+	display:inline-block;
+	color:#EEEEEE;
+}
+/*MISIÓN CUMPLIDA! (al fin)*/

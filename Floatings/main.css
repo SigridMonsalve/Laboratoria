@@ -1,0 +1,31 @@
+/* Pon tu código css aqui */
+.container{
+	width: 600px;
+	border:1px solid grey;
+
+}
+.uno{
+	background-color:#FEF233;
+	height:100px;
+	
+}
+.dos{
+	background-color:#5262F9;
+	height:100px;
+	
+}
+.tres{
+	background-color:#FF0C7E;
+	height:100px;
+	
+}
+.container div{
+	float:left;
+	width:25%;
+
+}
+.container:before,.container:after{
+	content:"";
+	display:block;
+	clear:both;
+}

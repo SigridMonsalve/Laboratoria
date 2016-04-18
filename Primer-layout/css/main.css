@@ -1,0 +1,152 @@
+*{
+	font-family:'Georgia';
+}
+.contprincipal{
+	margin:0 auto;
+	width:500px;
+}
+.header{
+	margin: auto;
+	max-width:100%;
+	padding:0;
+}
+.header img{
+	width:100%;
+}
+.menu{
+	padding:0;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+ul li{
+	width:auto;
+	text-align:center;
+	list-style-type:none;
+	display: inline-table;
+	font-size:17px;
+	padding:2% 0 2% 0;
+}
+a:link{
+	text-align:center;
+	border-right:1px solid black;
+	padding:0 16 0 16;
+}
+ul .noborder:link, .container a:link{
+	border:none;
+}
+a:link, a:link:active {
+    color: black;
+    text-decoration: none;
+}
+a:visited, a:visited:active {
+    color:#A09F9F;
+} 
+hr{
+	width:10%;
+	border-top:2px solid grey;
+}
+.contprincipal>p{
+	text-align:center;
+	font-size:19px;
+	padding-right:50px;
+	padding-left:50px;
+}
+
+.container{
+	margin:10px;
+	width:500px;
+	position:absolute;
+}
+.container img{
+	position:static;
+	width: 28.5%;
+	height: 28.5%;
+	margin:10px;
+	filter:brightness(70%)
+}
+.nombres{
+	bottom:-130px;
+	position:absolute;
+}
+.nombres p{
+	display:inline-block;
+	margin:0 0 150 45;
+}
+.nombres a{  
+	color:#FFFFFF;
+	font-size:10px;
+}
+h2,p{
+	text-align:center;
+}
+.coderCntinr{
+	margin:auto;
+	width:500px;
+	border:2px solid #636363;
+}
+.coderCntinr>img{
+	border-radius:100%;
+	width:22%;
+	margin-left:39%;
+	margin-right:39%;
+	margin-top:5%;
+}
+.coderCntinr p{
+	font-size:12px;
+	padding: 5% 8% 5% 8%;
+}
+.listaCoder, h3{
+	margin-left:10px;
+	padding:0;
+	text-align:left;
+	border:none;
+}
+.uno,.dos,.tres{
+	background-color:#949393;
+	color:white;
+	padding:10 5 10 5;
+	text-align:left;
+	margin:5 5 5 30;
+}
+.uno{
+	width:400;
+}
+.dos{
+	width:300;
+}
+.tres{
+	width:200;
+}
+.portafolio{
+	width:450;
+	margin:0 auto;
+	padding:0;
+	margin-left:20;
+	margin-right:20;
+}
+.portafolio img{
+	width:130;
+	padding:0 0 15 15;
+}
+.vuela img{
+	background-color:none;
+	animation-name:volar;
+	animation-duration:15s;
+	z-index:0;
+	width:211;
+	height:auto;
+	position:relative;
+
+}
+@keyframes volar{
+	from {left:0; bottom:-500;}
+	to {right:0; bottom:1000;}
+}
+
+.nocenter hr,.nocenter h3{
+	margin-left:0;
+	position:relative;
+	
+}
