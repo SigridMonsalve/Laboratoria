@@ -1,1 +1,90 @@
-/* Tu CSS va aqui */
+*{
+	font-family:"Open sans", sans-serif;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+}
+div{
+	display:inline-block;
+}
+header img{
+	width:200px;
+}
+header,section,footer{
+	padding:0 20%;
+}
+header>div, .content>div,footer>div{
+	width:100%;
+}
+h1{
+	font-size:2.6em;
+	margin-top:0;
+}
+.content{
+	background:#808080;
+	color:white;
+}
+.content>div{
+	padding:5% 0%;
+}
+.content div div:first-child{
+	width:60%;
+	margin-bottom:10px;
+}
+.content div:nth-child(2){
+	width:auto;
+	height:auto;
+	background:#9A9A9A;
+	border-radius:5px;
+	padding:0px 15px 20px 15px;
+}
+header>div div:nth-child(2),.content div:nth-child(2){
+	float:right;
+}
+nav li{
+	list-style:none;
+	display:inline-table;
+	margin-left:15px;
+}
+nav a{
+	font-size:0.8em;
+	color:#787572;
+}
+.button{
+	background:#3EB0F7;
+	border:none;
+	color:white;
+}
+.button,.content h2{
+	text-align:center;
+}
+input{
+	border:none;
+	margin-bottom:5px;
+	width:100%;
+	padding:5px;
+}
+footer,.content p{
+	font-size:13px;
+}
+/*_______ Responsive _________*/
+
+@media screen and (max-width:535px){
+	body{
+		width:100%;
+	}
+	.resp img{
+		float:left;
+	}
+	.content div:nth-child(2){
+		width:100%;
+		float:none;
+	}
+	.content div div:first-child{
+		width:100%;
+	}
+	header,section,footer{
+		padding:0% 20px;
+	}
+}
