@@ -1,4 +1,12 @@
-/* Inserta tu código aqui */
-.floatSearch{
-	float:right;
+*{
+	box-sizing:border-box;
+}
+.blockFooter{
+	display:inline-block;
+	vertical-align:top;
+}
+@media (min-width: 768px) {
+  .blockFooter {
+    width:19.7%;
+  }
 }
