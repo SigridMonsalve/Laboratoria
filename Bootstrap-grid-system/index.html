@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bootstrap: Grid System</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 
@@ -51,40 +52,49 @@
 		    </div><!-- /.navbar-collapse -->
 		</nav>
 	</header>
+<section class="contenido">
 	<div class="row">
-		<section class="columnLeft col-md-7 col-lg-5">
+		<section class="columnLeft col-sm-7 col-md-7 col-lg-5">
 					<div class="blogPost">
 						<span class="label label-default destacado">Historia destacada</span>
 						<h4>Artículo</h4><p class="detallePost">publicado el 03/10/15</p>
-						<h3>Lorem ipsum et diligat gentris</h3>
+						<p class="titles">Lorem ipsum et diligat gentris</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
 						<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
-						<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						<div>
+							<i class="glyphicon glyphicon-tag"></i><p>Etiquetas:</p> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						</div>
 					</div>
 					<div class="blogPost">
 						<span class="label label-default">Webzone</span>
 						<h4>Preguntas</h4><p class="detallePost">publicado el 03/10/15</p>
-						<h3>Lorem ipsum et diligat gentris</h3>
+						<p class="titles">Lorem ipsum et diligat gentris</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
 						<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
-						<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						<div>
+							<i class="glyphicon glyphicon-tag"></i><p>Etiquetas:</p> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						</div>
 					</div>
 					<div class="blogPost">
 						<h4>Artículo</h4><p class="detallePost">publicado el 03/10/15</p>
-						<h3>Etiam lorem et suspira nostres</h3>
-						<img src="" alt="imagenPost">
+						<p class="titles">Etiam lorem et suspira nostres</p>
+						<img src="img/harp-seal.jpg" alt="imagenPost">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
 						<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
-						<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						<div>
+							<i class="glyphicon glyphicon-tag"></i><p>Etiquetas: </p><a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						</div>
 					</div>
 					<div class="blogPost">
-						<h3>Etiam lorem et suspira nostres</h3>
+						<p class="titles">Etiam lorem et suspira nostres</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
 						<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
-						<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						<div>
+							<i class="glyphicon glyphicon-tag"></i><p>Etiquetas: </p><a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+						</div>
 					</div>	
 		</section>
-		<section class="columnMiddle col-md-5 col-lg-4">
+		<section class="columnMiddle col-sm-5 col-md-5 col-lg-4">
 					<div class="blogPost fondoVideo">
 						<span class="label label-default destacado">Historia destacada</span>
 						<video controls>
@@ -99,60 +109,53 @@
 					<div class="agenda">
 						<div class="row">
 							<div class="col-md-12 col-lg-12">
-								<span class="label label-default destacado">Agenda</span><br>
+								<span class="label label-default destacado">Agenda</span>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-3 col-lg-3">
-								<p class="fecha">23 Enero</p>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fecha">
+								<p>24 Enero</p>
 							</div>
-							<div class="col-md-9 col-lg-9">
-								<div class="tareaFecha">
-									<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
-								</div>
+							<div class="col-md-9 col-lg-9 col-xs-9 col-sm-9">
+								<p class="titles">Lorem ipsum et diligat</p><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
 							</div>		
 						</div>
 						<div class="row">
-							<div class="col-md-3 col-lg-3">
-								<p class="fecha">23 Enero</p>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fecha">
+								<p>24 Enero</p>
 							</div>
-							<div class="col-md-9 col-lg-9">
-								<div class="tareaFecha">
-									<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
-								</div>
+							<div class="col-md-9 col-lg-9 col-xs-9 col-sm-9">
+								<p class="titles">Lorem ipsum et diligat</p><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
 							</div>		
 						</div>	
 						<div class="row">
-							<div class="col-md-3 col-lg-3">
-								<p class="fecha">23 Enero</p>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fecha">
+								<p>24 Enero</p>
 							</div>
-							<div class="col-md-9 col-lg-9">
-								<div class="tareaFecha">
-									<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
-								</div>
+							<div class="col-md-9 col-lg-9 col-xs-9 col-sm-9">
+								<p class="titles">Lorem ipsum et diligat</p><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
 							</div>		
 						</div>		
 						<div class="row">
-							<div class="col-md-3 col-lg-3">
-								<p class="fecha">23 Enero</p>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 fecha">
+								<p>24 Enero</p>
 							</div>
-							<div class="col-md-9 col-lg-9">
-								<div class="tareaFecha">
-									<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
-								</div>
+							<div class="col-md-9 col-lg-9 col-xs-9 col-sm-9">
+								<p class="titles">Lorem ipsum et diligat</p><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
 							</div>		
 						</div>	
 					</div>
 					<div class="info">
+						<p class="titles">Más información</p>
 						<div>
 							<a href="#">Localidades</a>
-							<h3>Lorem ipsum et diligat</h3>
+							<p class="titles">Lorem ipsum et diligat</p>
 							<p>Lorem ipsum dolor sit amet, consectetur</p>
 							<p class="detalles">adipiscin elit.</p>
 						</div>
 						<div>
-							<a href="#">Localidades</a>
-							<h3>Lorem ipsum et diligat</h3>
+							<a href="#">Hospimedia</a>
+							<p class="titles">Lorem ipsum et diligat</p>
 							<p>Lorem ipsum dolor sit amet, consectetur</p>
 							<p class="detalles">adipiscin elit.</p>
 						</div>
@@ -161,7 +164,7 @@
 		<section class="columnRight col-lg-3 hidden-xs hidden-sm hidden-md">
 				<div class="infoLinks">
 					<div>
-						<h3>Expertise</h3>
+						<p class="titles">Más información</p>
 						<ul class="list-group">
 							<li class="list-group-item"><a href="">Finanzas y fiscalización</a></li>
 							<li class="list-group-item"><a href="">Investigación y equipos</a></li>
@@ -174,15 +177,15 @@
 					</div>
 				</div>
 				<div class="blockRight">
-					<h3>MAGAZINE</h3>
-					<h3>ECODEFI</h3>
-					<p>ENQUETE <br>Loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eiu pharetra nec, mattis ac neque</p>
+					<p class="titles">MAGAZINE</p>
+					<p class="titles"><b>ECODEFI</b></p>
+					<p>ENQUETE <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eiu pharetra nec, mattis ac neque</p>
 					<p>PREGUNTAS <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="blockRight">
-					<h3>MAGAZINE</h3>
-					<h3>ACCIONES COMUNES</h3>
-					<p>ENQUETE <br>Loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eiu pharetra nec, mattis ac neque</p>
+					<p class="titles">MAGAZINE</p>
+					<p class="titles"><b>ACCIONES COMUNES</b></p>
+					<p>ENQUETE <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eiu pharetra nec, mattis ac neque</p>
 					<p>PREGUNTAS <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 				<div class="blockRight">
@@ -191,53 +194,54 @@
 		</section>
 	</div>
 	<footer class="nav-justified">
-		<div class="blockFooter">
-			<h3>Rubros</h3>
-			<ul class="list-group">
-				<li class="list-group-item"><a href="">Actualidades</a></li>
-				<li class="list-group-item"><a href="">En directo</a></li>
-				<li class="list-group-item"><a href="">Reporte financiero</a></li>
-				<li class="list-group-item"><a href="">Nuestra oferta</a></li>
-				<li class="list-group-item"><a href="">De nosotros a ustedes</a></li>
-			</ul>
-		</div>
-		<div class="blockFooter hidden-xs hidden-sm hidden-md">
-			<h3>Expertise</h3>
-			<ul class="list-group">
-				<li class="list-group-item"><a href="">Finanzas y fiscalización</a></li>
-				<li class="list-group-item"><a href="">Investigación y equipos</a></li>
-				<li class="list-group-item"><a href="">Medio ambiente</a></li>
-				<li class="list-group-item"><a href="">Habitat / Urbanismo</a></li>
-				<li class="list-group-item"><a href="">Sanidad</a></li>
-				<li class="list-group-item"><a href="">Social / Servicios</a></li>
-				<li class="list-group-item"><a href="">Transporte</a></li>
-			</ul>
-		</div>
-		<div class="blockFooter">
-			<h3>Suscripción</h3>
-			<ul class="list-group">
-				<li class="list-group-item"><a href="">Todo el flujo</a></li>
-				<li class="list-group-item"><a href="">Flujo RSS para expertos</a></li>
-				<li class="list-group-item"><a href="">Noticias</a></li>
-			</ul>
-		</div>
-		<div class="blockFooter">
-			<h3>Nosotros</h3>
-			<ul class="list-group">
-				<li class="list-group-item"><a href="">¿Quiénes somos?</a></li>
-				<li class="list-group-item"><a href="">Plan del sitio</a></li>
-				<li class="list-group-item"><a href="">Información legal</a></li>
-			</ul>
-		</div>
-		<div class="blockFooter">
-			<h3>Contacto</h3>
-			<ul class="list-group">
-				<li class="list-group-item"><a href="">Contáctanos</a></li>
-				<li class="list-group-item"><a href="">FAQ</a></li>
-				<li class="list-group-item"><a href="">Haga sus preguntas</a></li>
-			</ul>
-		</div>
+			<div class="blockFooter">
+				<p class="titles">Rubros</p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="">Actualidades</a></li>
+					<li class="list-group-item"><a href="">En directo</a></li>
+					<li class="list-group-item"><a href="">Reporte financiero</a></li>
+					<li class="list-group-item"><a href="">Nuestra oferta</a></li>
+					<li class="list-group-item"><a href="">De nosotros a ustedes</a></li>
+				</ul>
+			</div>
+			<div class="blockFooter hidden-xs hidden-sm hidden-md">
+				<p class="titles">Expertise</p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="">Finanzas y fiscalización</a></li>
+					<li class="list-group-item"><a href="">Investigación y equipos</a></li>
+					<li class="list-group-item"><a href="">Medio ambiente</a></li>
+					<li class="list-group-item"><a href="">Habitat / Urbanismo</a></li>
+					<li class="list-group-item"><a href="">Sanidad</a></li>
+					<li class="list-group-item"><a href="">Social / Servicios</a></li>
+					<li class="list-group-item"><a href="">Transporte</a></li>
+				</ul>
+			</div>
+			<div class="blockFooter">
+				<p class="titles">Suscripción</p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="">Todo el flujo</a></li>
+					<li class="list-group-item"><a href="">Flujo RSS para expertos</a></li>
+					<li class="list-group-item"><a href="">Noticias</a></li>
+				</ul>
+			</div>
+			<div class="blockFooter">
+				<p class="titles">Nosotros</p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="">¿Quiénes somos?</a></li>
+					<li class="list-group-item"><a href="">Plan del sitio</a></li>
+					<li class="list-group-item"><a href="">Información legal</a></li>
+				</ul>
+			</div>
+			<div class="blockFooter">
+				<p class="titles">Contacto</p>
+				<ul class="list-group">
+					<li class="list-group-item"><a href="">Contáctanos</a></li>
+					<li class="list-group-item"><a href="">FAQ</a></li>
+					<li class="list-group-item"><a href="">Haga sus preguntas</a></li>
+				</ul>
+			</div>
 	</footer>
+</section>	
 </div>
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->

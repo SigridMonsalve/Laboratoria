@@ -1,12 +1,135 @@
+body{
+	background:#E2E9ED;
+}
 *{
+	font-family:"Roboto";
 	box-sizing:border-box;
+}
+.titles{
+	font-size:16px;
+	font-weight:bold;
+}
+.list-group-item{
+	background:none;
+	border:none;
+	padding:2.5px;
+}
+a{
+	color:#00637F;
+}
+a:hover{
+	text-decoration:none;
+	background:#00637F;
+	opacity:0.5;
+	color:#D5DFE7;
+	padding:2.5px;
+}
+video,img{
+	width:100%;
+	border-top:1px solid #00637F;
+	margin:10px 0px;
+}
+h2{
+	font-size:16px;
+}
+p{
+	font-size:13px;
+	line-height:14px;
+}
+i{
+	margin-right:5px;
+}
+.columnLeft,.columnMiddle,.columnRight{
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.columnRight{
+	margin-top:20px;
+}
+.blogPost>a,.blogPost>div>p{
+	font-weight:bold;
+	display:inline-block;
+}
+.blogPost div{
+	margin-left:20%;
+	display:inline-block;
+}
+.blogPost{
+	padding-bottom:20px;
+	border-bottom:1px solid LightGrey;
+	margin:20px 0;
+}
+.blogPost h4,.detallePost{
+	display:inline-block;
+	padding:0 10px;
+	line-height:13px;
+	font-size:11px;
+}
+.blogPost h4{
+	border-right:2px solid #00637F;
+	font-weight:bold;
+	font-size:12px;
+}
+.destacado{
+	margin:5px 0px 10px 0px;
+	font-size:16px;
+	background:#00637F;
+	display:block;
+
+}
+.fondoVideo{
+	padding:10px 5px ;
+	color:#D5DFE7;
+	background:#1C727F;
+}
+.fondoVideo a{
+	color:#D5DFE7;
+}
+.fecha{
+	margin-top:10px;
+	font-weight:bold;
+	text-align:center;
+}
+.fecha p{
+	padding:20px 10px;
+	font-size:20px;
+	background-color:#A8EBFF;
+	color:#1C727F;
+}
+.blockRight{
+	margin-top:10px;
+	padding:5px 10px;
+	background:#A8EBFF;
+	color:#1C727F;
+}
+.blockRight .titles{
+	margin:0;
+	line-height:16px;
+	font-weight:normal;
+}
+footer{
+	border-top:2px solid #00637F;
+	padding-top:20px;
 }
 .blockFooter{
 	display:inline-block;
 	vertical-align:top;
+	padding:5px;
+	font-weight:bold;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .blockFooter {
     width:19.7%;
   }
+}
+@media (min-width:0px) and (max-width:640px){
+	.blockFooter{
+		width:49.5%;
+	}
+}
+@media (min-width:640px) and (max-width:1200px){
+	.blockFooter{
+		width:24.5%;
+	}
 }
