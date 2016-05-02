@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+<div class="container-fluid">
+	<header>
+		<nav class="navbar navbar-default">
+	  
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+	    	<div class="navbar-header col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		      	<a class="navbar-brand" href="#">Site name</a></h1>
+		      	<form class="collapse navbar-collapse navbar-form pull-right" id="insideSearch" role="search">
+		        	<div class="form-group">
+		          	<input type="text" class="form-control" placeholder="Search">
+		        	</div>
+		        	<button type="submit" class="btn btn-default">Submit</button>
+		      	</form>
+		      	<ul class="nav nav-pills navbar-right">
+		        	<li role="presentation"><a href="#"><i class="glyphicon glyphicon-home"></i> Noticias</a></li>
+		        	<li role="presentation"><a href="#"><i class="glyphicon glyphicon-home"></i> Enlaces RSS</a></li>
+		      	</ul>
+	    	</div>
+	    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1,#insideSearch" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		    </button>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse col-xs-12 col-sm-12" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav">
+		        	<li role="presentation"><a href="#">Bienvenidos<span class="sr-only">(current)</span></a></li>
+		        	<li role="presentation"><a href="#">Actualidades</a></li>
+		        	<li role="presentation"><a href="#">En directo</a></li>
+		        	<li role="presentation"><a href="#">Reporte financiero</a></li>
+		        	<li role="presentation"><a href="#">Nuestra oferta</a></li>
+		        	<li role="presentation"><a href="#">De nosotros a usted</a></li>
+		      	</ul>
+		    </div><!-- /.navbar-collapse -->
+		</nav>
+		</header>
+	<section class="content">
+		<div class="blogPost">
+			<span class="label label-default destacado">Historia destacada</span>
+			<h4>Artículo</h4><p class="detallePost">publicado el 03/10/15</p>
+			<h3>Lorem ipsum et diligat gentris</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
+			<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
+			<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+		</div>
+		<div class="blogPost">
+			<span class="label label-default">Webzone</span>
+			<h4>Preguntas</h4><p class="detallePost">publicado el 03/10/15</p>
+			<h3>Lorem ipsum et diligat gentris</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
+			<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
+			<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+		</div>
+		<div class="blogPost">
+			<h4>Artículo</h4><p class="detallePost">publicado el 03/10/15</p>
+			<h3>Etiam lorem et suspira nostres</h3>
+			<img src="" alt="imagenPost">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
+			<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
+			<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+		</div>
+		<div class="blogPost">
+			<h3>Etiam lorem et suspira nostres</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
+			<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
+			<i class="glyphicon glyphicon-tag"></i>Etiquetas: <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a>
+		</div>
+		<div class="blogPost fondoVideo">
+			<span class="label label-default destacado">Historia destacada</span>
+			<video controls>
+				<source src="video/seal the 3rd.mp4.mp4" type="video/mp4">
+				<source src="movie.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet corporis pariatur officia at dolor, quibusdam hic delectus maxime magnam soluta voluptates in? Facilis qui suscipit, illo, beatae eaque dicta error.</p>
+			<p class="detallePost">publicado el 09/10/15</p>
+			<i class="glyphicon glyphicon-bookmark"></i><a href="#">Ver más...</a>
+		</div>
+		<div class="agenda">
+			<span class="label label-default destacado">Agenda</span>
+			<div>
+				<p class="fecha">23 Enero</p>
+				<div class="tareaFecha">
+					<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
+				</div>
+			</div>
+			<div>
+				<p class="fecha">23 Enero</p>
+				<div class="tareaFecha">
+					<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
+				</div>
+			</div>
+			<div>
+				<p class="fecha">23 Enero</p>
+				<div class="tareaFecha">
+					<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
+				</div>
+			</div>
+			<div>
+				<p class="fecha">23 Enero</p>
+				<div class="tareaFecha">
+					<h3>Lorem ipsum et diligat</h3><p>Lorem ipsum dolor sit amet, consectatur adipiscing elit.</p><p class="detallePost">De 23 a 28 Diciembre 2015</p>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<div>
+				<a href="#">Localidades</a>
+				<h3>Lorem ipsum et diligat</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p>
+				<p class="detalles">adipiscin elit.</p>
+			</div>
+			<div>
+				<a href="#">Localidades</a>
+				<h3>Lorem ipsum et diligat</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur</p>
+				<p class="detalles">adipiscin elit.</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div>
+			<h3>Rubros</h3>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="">Actualidades</a></li>
+				<li class="list-group-item"><a href="">En directo</a></li>
+				<li class="list-group-item"><a href="">Reporte financiero</a></li>
+				<li class="list-group-item"><a href="">Nuestra oferta</a></li>
+				<li class="list-group-item"><a href="">De nosotros a ustedes</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>Suscripción</h3>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="">Todo el flujo</a></li>
+				<li class="list-group-item"><a href="">Flujo RSS para expertos</a></li>
+				<li class="list-group-item"><a href="">Noticias</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>Nosotros</h3>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="">¿Quiénes somos?</a></li>
+				<li class="list-group-item"><a href="">Plan del sitio</a></li>
+				<li class="list-group-item"><a href="">Información legal</a></li>
+			</ul>
+		</div>
+		<div>
+			<h3>Contacto</h3>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="">Contáctanos</a></li>
+				<li class="list-group-item"><a href="">FAQ</a></li>
+				<li class="list-group-item"><a href="">Haga sus preguntas</a></li>
+			</ul>
+		</div>
+	</footer>
+</div>
+	<!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
