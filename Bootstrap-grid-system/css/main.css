@@ -1,4 +1,4 @@
-body{
+.container-fluid{
 	background:#E2E9ED;
 }
 *{
@@ -14,14 +14,13 @@ body{
 	border:none;
 	padding:2.5px;
 }
-a{
+.navbar a{
 	color:#00637F;
 }
 a:hover{
 	text-decoration:none;
 	background:#00637F;
 	opacity:0.5;
-	color:#D5DFE7;
 	padding:2.5px;
 }
 video,img{
@@ -32,14 +31,34 @@ video,img{
 h2{
 	font-size:16px;
 }
-p{
+p,.blogPost a{
 	font-size:13px;
 	line-height:14px;
 }
 i{
 	margin-right:5px;
 }
-.columnLeft,.columnMiddle,.columnRight{
+header ul{
+	margin-top:5px;
+}
+header .navbar-brand{
+	height: auto;
+  	padding: 15px 15px;
+  	font-size: 40px;
+  	line-height: 26px;
+  	font-family:"Amatic SC",cursive;
+}
+.navbar-default .navbar-nav > .active > a{
+	background-color:#E2E9ED;
+}
+.active{
+	border-top:2px solid #00637F;
+	background-color:#E2E9ED;
+}
+.texto{
+	padding-top:10px;
+}
+.columnLeft,.columnMiddle,.columnRight,.agenda{
 	padding-top:10px;
 	padding-bottom:20px;
 	margin-bottom:20px;
@@ -55,9 +74,12 @@ i{
 	margin-left:20%;
 	display:inline-block;
 }
+.blogPost, .agenda{
+	border-bottom:1px solid LightGrey;
+}
+
 .blogPost{
 	padding-bottom:20px;
-	border-bottom:1px solid LightGrey;
 	margin:20px 0;
 }
 .blogPost h4,.detallePost{
@@ -76,10 +98,9 @@ i{
 	font-size:16px;
 	background:#00637F;
 	display:block;
-
 }
 .fondoVideo{
-	padding:10px 5px ;
+	padding:5px 5px 10px 5px;
 	color:#D5DFE7;
 	background:#1C727F;
 }
@@ -94,14 +115,29 @@ i{
 .fecha p{
 	padding:20px 10px;
 	font-size:20px;
-	background-color:#A8EBFF;
+	background-color:rgba(28,114,127,0.5);
 	color:#1C727F;
+}
+.agenda *, .info p, .info a{
+	margin:0px;
+}
+.agenda .row{
+	margin:0 auto;
+	margin-top:10px
+}
+.info div{
+	margin-top:10px;
+}
+.columnRight .info li{
+	padding-left:10px;
+}
+.columnRight .info i{
+	font-size:10px;
 }
 .blockRight{
 	margin-top:10px;
 	padding:5px 10px;
-	background:#A8EBFF;
-	color:#1C727F;
+	background-color:rgba(28,114,127,0.5);
 }
 .blockRight .titles{
 	margin:0;
@@ -111,6 +147,13 @@ i{
 footer{
 	border-top:2px solid #00637F;
 	padding-top:20px;
+}
+footer a:hover,.blogPost a:hover,.info a:hover{
+	text-decoration:none;
+	background:#00637F;
+	opacity:0.5;
+	color:#D5DFE7;
+	padding:2.5px;
 }
 .blockFooter{
 	display:inline-block;
@@ -127,9 +170,15 @@ footer{
 	.blockFooter{
 		width:49.5%;
 	}
+	header ul{
+		float:right;
+	}
 }
 @media (min-width:640px) and (max-width:1200px){
 	.blockFooter{
 		width:24.5%;
+	}
+	header ul{
+		float:right;
 	}
 }
